@@ -49,8 +49,18 @@ complete the initial configuration of a new lesson repository built from this te
    - the life cycle of the lesson (e.g. `pre-alpha`)
    - the human language the lesson is written in (e.g. `deutsch`)
 1. **Adjust the 
-   `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, and `LICENSE.md` files**
+   `CITATION.cff`, `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, and `LICENSE.md` files**
    as appropriate for your project.
+   -  `CITATION.cff`:
+      this file contains information to help people cite the lesson appropriately.
+      You should adjust it by replacing the FIXMEs with real values for your lesson,
+      many of which can be re-used from the information you put into `config.yaml` 
+      in a previous step.
+      The `cffinit` tool can help you update the file:
+      visit https://citation-file-format.github.io/cff-initializer-javascript/#/update
+      and paste in the current contents before selecting 'START EDITING' to update it with
+      relevant information for your lesson.
+      Remember to update the CFF periodically, e.g. whenever you release a new version of the lesson.
    -  `CODE_OF_CONDUCT.md`: 
       if you are using this template for a project outside The Carpentries,
       you should adjust this file to describe 

@@ -1,0 +1,24 @@
+# This example CITATION.cff file was generated with cffinit.
+# Visit https://citation-file-format.github.io/cff-initializer-javascript/#/update
+# and paste in these contents before selecting 'START EDITING' to update it with
+# relevant information for your lesson.
+
+cff-version: 1.2.0
+title: FIXME
+message: >-
+  Please cite this lesson using the information in this file
+  when you refer to it in publications, and/or if you
+  re-use, adapt, or expand on the content in your own
+  training material.
+type: dataset
+authors:
+  - given-names: FIXME
+    family-names: FIXME
+abstract: >-
+  FIXME
+  Replace this with a short abstract describing the
+  lesson, e.g. its target audience and main intended
+  learning objectives.
+keywords:
+  - FIXME
+license: CC-BY-4.0
